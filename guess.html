@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///home/alicek/Desktop/Fullstack/bootstrap/guess.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Psychic Development</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> 
+    <!-- Custom styles for this template -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1><p class="text-center"></p></h1>
+
+<div class="container">
+   <div class="jumbotron">
+      <h1 class="text-center">Develop Your Psychic Skills</h1>
+      <p class="text-center">FOR FREE!!</p>
+
+      <p class="text-right" id="highguesses" style="display: none;">High guesses:</p> 
+
+      <p class="text-right" id="lowguesses" style="display: none;">Low guesses:</p> 
+
+      <p class="text-center"><textarea id="input" class="text-center" rows="1"></textarea></p>  
+      
+      <p class="text-center"><a class="btn btn-primary btn-lg" id="guess" role="button">Make Guess</a>
+
+      <a class="btn btn-primary btn-lg" id="hint" role="button">Get a Hint</a></p>
+
+      <p class="text-center"><a class="btn btn-primary btn-lg" class="text-right" id="new" role="button">Start New Game</a></p>
+
+      <h3 id="status" style="text-align: center"><strong>You have 5 guesses left!</strong></h3>
+
+      <h3 id="answer" style="
+            text-align: center;
+            display: none;"></h3> 
+
+      <h3 id="repeat" style="
+            text-align: center;
+            display: none;
+            color: red;">Ummmm......You already made that guess! Try something different.</h3> 
+
+      <h3 id="invalid" style="
+            text-align: center;
+            display: none;
+            color: red;
+            ">That's not a valid guess. Try sensing a number between 1-100</h3>  
+
+       <h3 id="redhot" style="
+            text-align: center;
+            display: none;
+            color: red;
+            ">You're red hot!</h3>
+
+      <h3 id="hot" style="
+            text-align: center;
+            display: none;
+            color: red;
+            ">You're very warm!</h3>
+            
+      <h3 id="warm" style="
+            text-align: center;
+            display: none;
+            color: red;
+            ">You're warm!</h3>            
+
+       <h3 id="cold" style="
+            text-align: center;
+            display: none;
+            color: blue;
+            ">You're cold!</h3>                         
+         
+      <h3 id="icecold" style="
+            text-align: center;
+            display: none;
+            color: blue;
+            ">You're ice cold!</h3>    
+     
+
+         <h3 class="alert alert-info" id="correct" style="
+            display: none;
+            text-align: center;
+            "></h3>
+         
+         <h3 class="alert alert-info" id="high" style="
+            display: none;
+            text-align: center;
+            ">Ground your self lower and try again.</h3>
+
+            <h3 class="alert alert-info" id="last" style="
+            text-align: center;
+            display: none;
+            ">Sorry! That was your last guess. Game over!</h3>
+      
+          <h3 class="alert alert-info" id="done" style="
+            text-align: center;
+            display: none;
+            ">Sorry! You've already made five guesses. Game over.</h3>
+
+         <h3 class="alert alert-info" id="low" style="
+            text-align: center;
+            display: none;
+            ">Raise your vibration higher and try again.</h3>
+
+        
+
+  <p></p><div class="container" "text-center"=""><p>
+  Can you guess the number in less than five guesses? If so, you may qualify for a <em>FREE</em> seminar on     Psychic Development. </p>
+  </div>
+      <p></p>
+   </div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./jquery-1.11.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--<script src="./bootstrap.min.js"></script> -->
+    <script src="./bootstrap.min.js"></script> --&gt;
+    <!--<script src="./application2.js"></script> -->
+    <script src="./application3.js"></script>
+</body></html>
