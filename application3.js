@@ -35,6 +35,8 @@ $(document).ready(function(){
     	$("#status").hide();
     	$("#correct").hide();
     	$("#answer").hide();
+    	$("#last").hide();
+    	$("#done").hide();
 	}
 
 	var checkIfAlreadyWon =  function(){
